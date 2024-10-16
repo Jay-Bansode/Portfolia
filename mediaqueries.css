@@ -47,6 +47,16 @@
   }
 }
 
+@media (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: block;
+  }
+}
+
+
 @media screen and (max-width: 600px) {
   #contact,
   footer {
